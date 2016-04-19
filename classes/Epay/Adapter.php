@@ -124,7 +124,7 @@ class Epay_Adapter {
 
           $this->request_token();
 
-          sleep(10000); //We should delay the token request for some seconds;
+          sleep(3000); //We should delay the token request for some seconds;
 
           $this->get_token();
 
