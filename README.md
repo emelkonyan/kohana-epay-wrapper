@@ -8,8 +8,8 @@ First in config/epay-wrapper.php should be declared the four major values:
 
 After that just create new the object and init it
 
-$my_adapter = Epay_Adapter();
-$my_adapter->init();
+    $my_adapter = Epay_Adapter();
+    $my_adapter->init();
 
 The adapter is ready
 
